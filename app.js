@@ -29,8 +29,6 @@ function pegaPrecoItem(item) {
   return Number(precoItem.textContent)
 }
 
-
-
 function adicionaAoTotal(preco) {
   const total = document.querySelector('#total')
   total.textContent = preco + Number(total.textContent)
